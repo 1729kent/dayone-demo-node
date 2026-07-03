@@ -1,0 +1,10 @@
+{
+  "name": "dayone-demo-node",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "bootstrap": "node -e \"require('fs').copyFileSync('.env.example','.env');console.log('env ready')\"",
+    "test": "node -e \"require('fs').accessSync('.env');console.log('ok')\"",
+    "start": "node index.js"
+  }
+}
