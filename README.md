@@ -13,7 +13,7 @@
 2. 初期設定を実行:
 
    ```
-   npm run setup
+   npm run bootstrap
    ```
 
 3. 動作確認:
